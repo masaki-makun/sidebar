@@ -159,7 +159,7 @@ const SideBar: React.FC = () => {
 
   return (
     <>
-      <nav className="relative flex h-[800px] w-[310px] flex-col justify-between overflow-y-hidden rounded-md bg-containerBackground shadow-lg">
+      <nav className="relative flex h-[800px] max-h-[800px] min-h-[800px] w-[310px] flex-col justify-between overflow-y-auto rounded-md bg-containerBackground shadow-lg">
         <div className="max-h-[700px]">
           <div className="border-b p-4 text-primary">
             <Link href="#" className="font-semibold text-primary transition-opacity hover:opacity-70">
